@@ -1,6 +1,13 @@
-function max(brojevi) {
-    return Math.max.apply(Math, brojevi);
+function max() {
+    var i;
+    var max = -Infinity;
+    for(i=0;i<arguments.length;i++) {
+        if (arguments[i]>max) {
+            max = arguments[i];
+        }
+    }
+    return max;
 }
 
-let brojevi = [3,12,7];
-console.log(max(brojevi));
+x = max(9,17,22);
+console.log(x);
