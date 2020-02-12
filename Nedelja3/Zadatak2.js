@@ -1,10 +1,9 @@
 let r=10;
 let c=1000;
-let p=r*r*Math.PI;
 
-function cena(pica) {
- return pica;    
+
+function cena(c,r) {
+ return c/(r*r*Math.PI);    
 }
 
-let pica=c/p;
-console.log(cena(pica));
+console.log(cena(c,r));
