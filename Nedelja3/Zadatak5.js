@@ -19,10 +19,10 @@ addButton.addEventListener("click", function() {
 
 resetButton.addEventListener("click", function() {
     if (a <= 0) {
-        console.log('Neispravan unos');
+        window.alert ('Neispravan unos');
     }
     else {
-        console.log(`Narucili ste ${a} pica, ${d}`);
+        window.alert(`Narucili ste ${a} pica, ${d}`);
     }
     a=0;
     reset();
@@ -50,10 +50,10 @@ addButton1.addEventListener("click", function() {
 resetButton1.addEventListener("click", function() {
     
     if (a <= 0) {
-        console.log('Neispravan unos');
+        window.alert('Neispravan unos');
     }
     else {
-        console.log(`Narucili ste ${a} pica, ${d}`);
+        window.alert(`Narucili ste ${a} pica, ${d}`);
     }
     a=0;
     reset1();
